@@ -16,21 +16,26 @@
 
 <!--PHP PORTION-->
 <?php
+ 
   $num01 = 5;
   $num02 = 2;
   $sum = $num01 + $num02;
   $sub = $num01 - $num02;
   $mult = $num01 * $num02;
   $division = $num01 / $num02;
+  $module = $num01 % $num02;
+  $power = $num01 ** $num02;
   
 
   echo "The numbers are $num01 and $num02";
   echo "
         <ul>
-            <li>$sum</li>
-            <li>$sub</li>
-            <li>$mult</li>
-            <li>$division</li>
+            <li>$num01 + $num02 = $sum</li>
+            <li>$num01 - $num02 = $sub</li>
+            <li>$num01 * $num02 = $mult</li>
+            <li>$num01 / $num02 = $division</li>
+            <li>$num01 % $num02 = $module</li>
+            <li>$num01 ** $num02 = $power</li>
         </ul>
     ";
 
